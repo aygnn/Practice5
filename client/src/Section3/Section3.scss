@@ -1,0 +1,40 @@
+.section3{
+  
+    display: flex;
+    height: 675px;
+    .sec3sol{
+        
+        width: 50%;
+        background-color: #ffb606;
+        color: white;
+        
+    }
+   .sec3sag{
+  
+   
+   
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+     
+        div{
+            position: relative;
+            img{
+                width: 951px;
+                height: 675px;
+                filter: blur(2px);
+            }
+ 
+            .inputs{
+                position: absolute;
+                input{
+
+                    width: 522px;
+                    height: 42px;
+                    border: 0;
+                }
+                }
+        }
+    }
+}

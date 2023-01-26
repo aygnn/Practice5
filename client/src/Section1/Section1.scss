@@ -1,0 +1,66 @@
+.section1{
+    position: relative;
+    .section1middle{
+        margin-top: -39%;
+        display: flex;
+        color: white;
+        flex-direction: column;
+        div{
+            h1{
+                font-weight: 400;
+                font-size:  72px;
+                font-style: normal;
+                color: rgb(255, 255, 255);
+                line-height: 86.4px;
+                text-decoration: none;
+                transform: none;
+                 font-family:  'Roboto';
+                letter-spacing: 0;
+            }
+            span{
+                 background-color:#ffb606;
+            }
+        }
+
+        .section1cards{
+            margin-top: 49px;
+            display: flex;
+            justify-content: space-evenly;
+            .section1card{
+                width: 350px;
+                height: 161px;
+                display: flex;
+                background-color: #1a1a1a;
+                justify-content: center;
+                align-items: center;
+                .world{
+                    color: #ffb606;
+                    font-size: 58px;
+                    margin-bottom: 20px;
+                }
+                .online{
+                    text-align: left;
+                    margin-left: 10px;
+                    .courses {
+                        h2{
+
+                            margin-bottom: 7px;
+                            font-weight: 500;
+                            font-size : 24px;
+                            font-style:  normal;
+                            color: rgb(255, 255, 255);
+                            line-height: 28.8px;
+                            text-decoration: none;
+                            transform: none;
+                            font-family:  'Roboto';
+                            letter-spacing: 0
+                        }
+                    
+                       
+                    }
+                }
+                
+            }
+        }
+    }
+}

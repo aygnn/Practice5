@@ -1,0 +1,92 @@
+.apicard{
+    width: 350px;
+    height: 474px;
+    .topimage{
+        img{
+            width: 350px;
+            height: 263px;
+        }
+
+    }
+    .authors{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #eaebec;
+        height: 67px;
+        margin-top: -8px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #eaebec;
+        height: 67px;
+        div{
+            img{
+                width: 46px;
+                height: 46px;
+                border-radius: 50%;
+            }
+        }
+        .price{
+            display: flex;
+            background-color: #ffb606 !important;
+            height: 67px;
+            width: 67px;
+            align-items: center;
+           
+            font-weight: 700;
+            font-size: 18px;
+            font-style: normal;
+            color: rgb(255, 255, 255);
+            line-height: 27px;
+            text-decoration: none;
+            transform: none;
+            font-family: Roboto;
+            letter-spacing: 0;
+        
+            button{
+                background: transparent;
+                color: white;
+                border: 0;
+                font-size: 29px;
+                display: flex;
+            }
+        }
+    }
+}
+.about{
+    background-color: #f8f9fb;
+    height: 27%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    h4{
+        text-decoration: none;
+            font-weight: 500;
+            font-size:  22px;
+            font-style: normal;
+            color: rgb(26, 26, 26);
+            line-height: 26.4px;
+            text-decoration: none;
+            transform: none;
+            font-family:  Roboto;
+            letter-spacing: 0;
+    }
+}
+.apicards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.services{
+    margin-top: 6%;
+    margin-bottom: 5%;
+    span{
+        display: inline-block;
+        width: 55px;
+        height: 4px;
+        background-color: #ffb606;
+    }
+}
